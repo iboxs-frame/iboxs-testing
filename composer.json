@@ -1,0 +1,24 @@
+{
+    "name": "iboxs/iboxs-testing",
+    "license": "Apache-2.0",
+    "type": "iboxs-testing",
+    "authors": [
+        {
+            "name": "itlattice",
+            "email": "zqu1016@qq.com"
+        }
+    ],
+    "require": {
+	    "iboxs/framework": "1.0.*",
+        "phpunit/phpunit": "9.6.*",
+        "symfony/dom-crawler": "^2.8.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "iboxs\\testing\\": "src"
+        },
+        "files": [
+            "src/config.php"
+        ]
+    }
+}
