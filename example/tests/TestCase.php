@@ -1,8 +1,9 @@
 <?php
-
 namespace tests;
 
-class TestCase extends \iboxs\testing\TestCase
+use iboxs\testing\TestCase as TestingTestCase;
+
+class TestCase extends TestingTestCase
 {
     protected $baseUrl = 'http://localhost';
 }
