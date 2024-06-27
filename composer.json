@@ -21,12 +21,5 @@
         "psr-4": {
             "iboxs\\testing\\": "src"
         }
-    },
-    "extra": {
-        "iboxs": {
-            "services": [
-                "iboxs\\testing\\Service"
-            ]
-        }
     }
 }
