@@ -12,7 +12,7 @@ use PHPUnit\Framework\TestCase as FrameworkTestCase;
  * Class TestExtend
  * @package tests\Library
  */
-class TestCase extends FrameworkTestCase
+abstract class TestCase extends FrameworkTestCase
 {
     public $app;
 
