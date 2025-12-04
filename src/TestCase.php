@@ -21,7 +21,7 @@ abstract class TestCase extends FrameworkTestCase
      *
      * @param array $data 入参数组
      * @param string $method 请求方法
-     * @return \think\App
+     * @return \iboxs\App
      */
     public function call($appName,$url, $data, $method = 'POST',$header=[],$cookie=[])
     {

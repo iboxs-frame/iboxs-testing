@@ -5,14 +5,14 @@
     "authors": [
         {
             "name": "itlattice",
-            "email": "zqu1016@qq.com"
+            "email": "itlattice@gmail.com"
         }
     ],
     "type": "library",
     "require": {
-        "php": ">=7.3.0",
+        "php": ">=8.0.0",
         "ext-json": "*",
-	    "iboxs/framework": "1.1.*",
+	    "iboxs/framework": "^1.*|^2.*",
         "phpunit/phpunit": "^9.6",
         "symfony/dom-crawler": "^2.8.8"
     },
